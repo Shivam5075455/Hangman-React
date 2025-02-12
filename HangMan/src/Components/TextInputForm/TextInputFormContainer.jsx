@@ -1,7 +1,7 @@
 import { useState } from "react";
 import TextInputForm from "./TextInputForm";
 
-// container component for TextInputForm
+// container component(Logical file ) for TextInputForm
 
 function TextInputFormContainer({onSubmit}){
 

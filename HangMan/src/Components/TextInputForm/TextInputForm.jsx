@@ -1,7 +1,7 @@
 import TextInput from "../TextInput/TextInput";
 import Button from "../Button/Button";
 
-// Presentation Layer
+// Presentation Layer(UI File)
 
 function TextInputForm({handleFormSubmit, handleTextInputChange, value, inputType='text', setInputType})
 {    
@@ -19,7 +19,7 @@ function TextInputForm({handleFormSubmit, handleTextInputChange, value, inputTyp
             />
         </div>
 
-        <div>
+        <div className="flex">
             <Button 
             styleType="warning"
                 text={inputType=='password' ? 'Show' : 'Hide'}
